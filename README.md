@@ -34,4 +34,6 @@ curl -X POST http://localhost:8000/api/merge-csv \
 ```
 
 **Note:** `baseName` should match the prefix of your chunked files (e.g., if files are `data_part_1.csv`, use `"data"`).
+**Note:** `/absolute/path/to/directory` should be changed to the absolute path of the directory.
+
 
